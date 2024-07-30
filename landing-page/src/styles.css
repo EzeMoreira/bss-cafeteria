@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #ff0000;
+    padding: 1rem;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 1rem;
+  }
+  
+  .navbar a {
+    color: rgb(102, 47, 47);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: red;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  .catalog ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .catalog li {
+    border-bottom: 1px solid red;
+    padding: 1rem 0;
+  }
+  
+  .contact {
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar ul {
+      flex-direction: column;
+    }
+  
+    .navbar li {
+      margin: 0.5rem 0;
+    }
+  }
+  
